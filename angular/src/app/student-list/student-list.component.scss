@@ -1,0 +1,22 @@
+table{
+    direction: rtl;
+    width: 80vw;
+    margin: auto;
+    margin-top: 3vh;
+}
+td{
+    text-align: right;  
+}
+th{
+    text-align: right;  
+    width: 20%;
+}
+.link:hover{
+    cursor:grab;
+}
+input{
+    text-align: right;
+    width: 80vh;
+    margin: auto;
+    margin-top: 3vh;
+}

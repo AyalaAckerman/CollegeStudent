@@ -1,0 +1,23 @@
+
+<input class="form-control" (change)='filterStudents()' [(ngModel)]="textToSearch" list="datalistOptions" id="exampleDataList" placeholder="הקלד טקסט לחיפוש">
+<table class="table table-dark table-striped">
+    <thead>
+        <tr>
+            <th scope="col"> תעודת זהות</th>
+            <th scope="col">שם פרטי</th>
+            <th scope="col">שם משפחה</th>
+            <th scope="col">גיל</th>
+            <th scope="col"> מין</th>
+        </tr>
+    </thead>
+    <tbody class="table-hover">
+        <tr *ngFor="let student of studentList">
+            <td class="link" [routerLink]="['/studentDetails',student.runID]">{{student.id}}</td>
+            <td>{{student.firstName}}</td>
+            <td>{{student.lastName}}</td>
+            <td>{{student.birthDate|age| number : '1.0-1'}}</td>
+            <td>{{student.type}}</td>
+        </tr>
+    </tbody>
+</table>
+ 

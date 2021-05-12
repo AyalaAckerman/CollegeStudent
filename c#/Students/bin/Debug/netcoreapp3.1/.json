@@ -1,0 +1,34 @@
+{
+  "students": [
+      {
+        "runId": 1,
+        "id": 207594375,
+        "firstName": "אילה",
+        "lastName": "אקרמן",
+        "type": "female",
+        "birthDate": "08/02/2000",
+        "registrationDate": "01/01/2020",
+        "age": 21
+      },
+      {
+        "runId": 2,
+        "id": 307594375,
+        "firstName": "משה",
+        "lastName": "כהן",
+        "type": "male",
+        "birthDate": "08/12/1999",
+        "registrationDate": "02/01/2020",
+        "age": 21
+      },
+      {
+        "runId": 3,
+        "id": 407594375,
+        "firstName": "תמי",
+        "lastName": "קרויזר",
+        "type": "female",
+        "birthDate": "14/02/1999",
+        "registrationDate": "03/01/2020",
+        "age": 21
+      }
+    ]
+}

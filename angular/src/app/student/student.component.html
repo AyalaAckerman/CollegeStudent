@@ -1,0 +1,15 @@
+<div class="card text-white bg-dark mb-3 student" >
+    <div class="card-header">{{student.firstName}} {{student.lastName}}</div>
+    <div class="card-body">
+      <h5 class="card-title">תעודת זהות</h5>
+      <p class="card-text">{{student.id}}</p>
+      <h5 class="card-title">מין</h5>
+      <p class="card-text">{{student.type}}</p>
+      <h5 class="card-title">תאריך לידה</h5>
+      <p class="card-text">{{student.birthDate| date:'MM/dd/yyyy'}}</p>
+      <h5 class="card-title">תאריך רישום</h5>
+      <p class="card-text">{{student.registrationDate| date:'MM/dd/yyyy' }} </p>
+      <h5 class="card-title">גיל</h5>
+      <p class="card-text">{{student.birthDate|age| number : '1.0-1'}}</p>
+    </div>
+</div>
